@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+    background: url('../images/background.jpg');
+    font-family: 'Coda', cursive;
+    color: #ffff;
+    text-shadow: 1px 5px 5px black;
+}
