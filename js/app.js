@@ -42,10 +42,10 @@ class Player{
     update(){        
         allEnemies.forEach(element => {
             let x = Math.round(element.x)
-            x = Math.ceil(x/100)*100 //this line to mack the game harder :) if you want easier gameplay comment it out
+            x = Math.ceil(x/50)*50 //this line to make the game harder :) if you want easier gameplay comment it out
             if(this.x == x && this.y == element.y){ //Handling Collision
-                player.x = 200
-                player.y = 400
+                this.x = 200
+                this.y = 400
                 alert('collision, The game will reset')
             }
         })
